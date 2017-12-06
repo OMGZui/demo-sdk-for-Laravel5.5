@@ -37,7 +37,7 @@ php artisan vendor:publish --provider="\OMGZui\OMGZui\OMGZuiServiceProvider"
 For Lumen, register a different Provider in `bootstrap/app.php`:
 
 ```php
-$app->register(\OMGZui\OMGZui\Facades\OMGZui::class);
+$app->register(\OMGZui\OMGZui\OMGZuiServiceProvider::class);
 
 ```
 
