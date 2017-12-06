@@ -14,7 +14,7 @@ class OMGZuiServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->publishes([
-            __DIR__.'/config/omgzui.php' => config_path('omgzui.php'),
+            __DIR__.'/../config/omgzui.php' => config_path('omgzui.php'),
         ]);
     }
 
