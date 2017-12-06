@@ -22,6 +22,6 @@ class Demo
      */
     public function getName()
     {
-        echo config('omgzui.name');
+        return config('omgzui.name');
     }
 }

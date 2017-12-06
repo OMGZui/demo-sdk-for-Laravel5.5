@@ -13,8 +13,6 @@
             "email": "862275679@qq.com"
         }
     ],
-    "minimum-stability": "stable",
-    "prefer-stable": true,
     "require": {
         "php": ">=7.0.0",
         "predis/predis": "^1.1.1"
